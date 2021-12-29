@@ -1,0 +1,9 @@
+{
+    "name": "MommysFiller",
+    "description": "Autofill like a beast",
+    "version": "1.69",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+      }
+  }
