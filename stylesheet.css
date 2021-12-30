@@ -5,6 +5,7 @@
   font-size: 30px
 }
 div {
+  margin:5px;
   width: 100%;
   background-color: powderblue;
 }

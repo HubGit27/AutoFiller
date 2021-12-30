@@ -1,9 +1,13 @@
 {
     "name": "MommysFiller",
-    "description": "Autofill like a beast",
-    "version": "1.69",
+    "description": "Have Your Mommy Autofill For You",
+    "version": "0.01",
     "manifest_version": 3,
     "action": {
         "default_popup": "popup.html"
-      }
+      },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ]  
   }
