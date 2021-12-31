@@ -3,6 +3,12 @@
     "description": "Have Your Mommy Autofill For You",
     "version": "0.01",
     "manifest_version": 3,
+    "icons":{
+      "16": "logo50.png",
+      "32": "logo50.png",
+      "48": "logo50.png",
+      "128": "logo50.png"
+    },
     "action": {
         "default_popup": "popup.html"
       },

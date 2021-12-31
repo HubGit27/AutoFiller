@@ -28,6 +28,21 @@ button{
   outline: none;
   }
 
+  @keyframes grow {
+    from {
+        font-size: 1px;
+    }
+    to {
+        font-size: 30px;
+    }
+}
+
+h1 {
+    animation-name: grow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
 button:hover {
   background-color: #2EE59D;
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
