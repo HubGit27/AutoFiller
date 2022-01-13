@@ -9,12 +9,24 @@
       "48": "logo50.png",
       "128": "logo50.png"
     },
+    "background": {
+        "service_worker": "trash/background.js"
+    },
+    "options_page": "options.html",
     "action": {
         "default_popup": "popup.html"
       },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],  
+
     "permissions": [
         "activeTab",
         "scripting",
-        "tabs"
+        "tabs",
+        "storage"
     ]  
   }

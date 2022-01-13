@@ -2,39 +2,34 @@
 <html>
   <head>
     <style>
-      html, body {
+      /* html, body {
             width: 250px;
-        }
+        } */
     </style>
     <link rel="stylesheet" href="stylesheet.css">
    
   </head>
-  <body>
-      <h1 class="title"> MommysFiller</h1>
+  <body style="background-color:rgb(133, 145, 163);">
+    <div class="title">
+      <h1 > MommysFiller</h1>
+    </div>
+      
     
     <div id="page1">
-      <button id='fill'>Fill</button>
-      <button data-page="page2">Create Profile</button>
-      <select id="sel" onchange="show(this.value)">
-      </select>
+      <div>
+        <button id='fill'>Fill</button>
+        <button id="page2">Settings</button>
+      </div>
+      
+      <div>
+        <select id="sel" onchange="show(this.value)">
+        </select>
+      </div>
+      
     </div>
+    
 
-    <script src='pages.js'></script>
-
-    <div id="page2">
-      <form>
-        <label for="profileName">Profile Name:</label><br>
-        <input type="text" id="profileName" name="profileName"><br>
-        <label for="firstName">First name:</label><br>
-        <input type="text" id="firstName" name="firstName"><br>
-        <label for="lastName">Last name:</label><br>
-        <input type="text" id="lastName" name="lastName">
-        <div>
-            <input type="button" value="Create" id=createProfile>
-        </div>  
-      </form>
-    </div>
-    <script src='action.js'></script>
-    <script src='profiles.js'></script>
+    
+    <script src='popup.js'></script>
   </body>
 </html>
