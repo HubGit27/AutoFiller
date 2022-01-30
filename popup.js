@@ -29,8 +29,10 @@ document.getElementById('fill').addEventListener('click', function(){
       });
 })
 
-
-
+//settings button to open options;
+document.getElementById('settings').addEventListener("click", function(){
+    chrome.runtime.openOptionsPage();
+})
 
 
     // return new Promise(function(resolve,reject){

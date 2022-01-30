@@ -30,3 +30,4 @@ document.getElementById('clearProfile').addEventListener('click', function(){
         }
     });
 })
+
