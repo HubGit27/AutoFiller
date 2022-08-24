@@ -135,3 +135,7 @@ button:active {
   line-height: inherit;
   border-radius: 45px;
 }
+
+.profileInList {
+  border: 1px solid green ;
+}
